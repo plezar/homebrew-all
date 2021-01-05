@@ -4,7 +4,7 @@ class Repseqio < Formula
   version "1.3.4-1"
   sha256 "84a5d2f6c52210fd73b5792a6c7ca4f45f19664a6fc27ca09dddfbbe2c8d8bc3"
 
-  depends_on :java
+  depends_on "openjdk@8"
 
   def install
     prefix.install Dir["*"]
